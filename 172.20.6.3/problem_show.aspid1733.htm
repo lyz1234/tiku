@@ -1,0 +1,477 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd"><HTML>
+<!-- saved from url=(0042)http://172.20.6.3/Problem_Show.asp?id=1733 -->
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<title>Oj - vijos - P1733</title>
+<Meta http-equiv="Content-Type"      Content="text/html; charset=gb2312">
+<Meta http-equiv="Pragma"            Content="No-cach">
+<Meta name="Kyewords"                Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Description"             Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Robots"                  Content="All">
+<Meta name="Author"                  Content="cp1305@163.com">
+<Meta name="Copyright"               Content="Copyright Vijos (c) 2005. www.Vijos.cn Powered by Vivian Snow">
+<Meta name="Generator "              Content="Dreamweaver,Visual Studio .net 2003">
+<link href="skin/vijos%20black/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+window.status="欢迎访问OJ!";
+</script>
+</head>
+<body>
+<div align="center">  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><img src="skin/vijos%20black/haed.gif" width="750" height="70" border="0" usemap="#MapHead"></a><map name="MapHead" id="MapHead"><area shape="rect" coords="71,1,153,21" href="skin.asp.htm" alt="点击这里更换您喜欢的皮肤" /><area shape="rect" coords="0,0,750,70"  alt="首页" /></map></td>
+    </tr>
+	
+    <tr>
+      <td height="25" align="right" bgcolor="#525252">
+	  <font class="styletext">
+	  
+	  请点击<a href="default.htm"><font color="#FFFFFF"><b>这里</b></font></a>登入
+	  
+	  </font>&nbsp;<a href="default.htm"><font class="style3">首页</font></a>
+	  <a href="core.asp.htm"><font class="style3">站务</font></a>
+	  <a href="news.asp.htm"><font class="style3">公告</font></a> 
+<a href="problem_data.asp.htm"><font class="style3">数据</a></font>
+	  <font class="style3">|</font> <a href="problem.asp.htm"><font class="style3">题库</font></a>
+	  <a href="categories.asp.htm"><font class="style3">分类</font></a>
+	  <a href="record.asp.htm"><font class="style3">记录</font></a>
+	  <a href="test.asp.htm"><font class="style3">测试</font></a>
+	  <a href="rank.asp.htm"><font class="style3">排名</font></a>
+	  <a href="group.asp.htm"><font class="style3">团队</font></a>
+	  <a href="discuss.asp.htm"><font class="style3">讨论</font></a> <font class="style3">| </font><a href="skin.asp.htm"><font class="style3">换肤</font></a><font class="style3">|</font><a href="logout.asp"><font class="style3">登入</font></a><a href="reg_state.asp.htm"><font class="style3">注册</font></a>
+	  </td>
+      <td align="center" bgcolor="#525252">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+	  
+	  
+	  <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="712" align="left" valign="middle">
+		  <marquee align="right" direction="left" scrollamount="4" onMouseOver="this.stop();" onMouseOut="this.start();">
+		  <font color="#003366"><b>公告 News &gt;&gt;</b></font>
+		  
+		  　　<a href="news.asp.htm#12"><font color="#006699"><b>题库第5页是历年noip原题</b> (2012-3-5 17:19:20)</font></a>
+		  
+		  　　<a href="news.asp.htm#10"><font color="#006699"><b>第一次wa意味这道题的锻炼机会失去了。</b> (2012-2-15 16:35:47)</font></a>
+		  
+		  　　<a href="news.asp.htm#7"><font color="#006699"><b>程序设计=算法+数据结构</b> (2011-12-4 23:42:52)</font></a>
+		  
+		  　　<a href="news.asp.htm#6"><font color="#006699"><b>c++ = c plus plus = cpp</b> (2011-11-28 11:12:24)</font></a>
+		  
+		  　　<a href="news.asp.htm#1"><font color="#006699"><b>oj重新开张，注册须知，否则封号。</b> (2002-1-1 21:41:45)</font></a>
+		  
+		  </marquee>
+		  </td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	  <hr>
+	  </td>
+    </tr>
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+<script>
+document.title=document.title+" - NOI2009第2天第1题_植物大战僵尸"
+</script>
+<table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+  </tr>
+  <tr>
+    <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+    <td width="712" align="left" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><span style="font-weight: bold">From</span> <a href="user_show.aspid10625.htm">easthong</a></td>
+      </tr>
+    </table>      <font size="5"><a href="problem_show.aspid1733aprobnf.htm" alt="点击可标记为实星">☆</a></font><a href="problem_show.aspid1733.htm"><font class="style1">NOI2009第2天第1题_植物大战僵尸</font></a></td>
+    <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+  </tr>
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+  </tr>
+</table>
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="540" valign="top">
+
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">描述 Description </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">                Plants vs. Zombies（PVZ）是最近十分风靡的一款小游戏。Plants（植物）和Zombies（僵尸）是游戏的主角，其中Plants防守，而Zombies进攻。该款游戏包含多种不同的挑战系列，比如Protect Your Brain、Bowling等等。其中最为经典的，莫过于玩家通过控制Plants来防守Zombies的进攻，或者相反地由玩家通过控制Zombies对Plants发起进攻。<br>
+现在，我们将要考虑的问题是游戏中Zombies对Plants的进攻，请注意，本题中规则与实际游戏有所不同。游戏中有两种角色，Plants和Zombies，每个Plant有一个攻击位置集合，它可以对这些位置进行保护；而Zombie进攻植物的方式是走到植物所在的位置上并将其吃掉。<br>
+游戏的地图可以抽象为一个N行M列的矩阵，行从上到下用0到N–1编号，列从左到右用0到M–1编号；在地图的每个位置上都放有一个Plant，为简单起见，我们把位于第r行第c列的植物记为Pr, c。<br>
+Plants分很多种，有攻击类、防守类和经济类等等。为了简单的描述每个Plant，定义Score和Attack如下：<br>
+<a href="about:<img src=./problemImg/noi200904.gif border=0>" target=_blank><img src=problemimg/noi200904.gif.png vspace=2 hspace=2 border=0 alt=::点击图片在新窗口中打开::></a><br>
+<br>
+Zombies必须从地图的右侧进入，且只能沿着水平方向进行移动。Zombies攻击植物的唯一方式就是走到该植物所在的位置并将植物吃掉。因此Zombies的进攻总是从地图的右侧开始。也就是说，对于第r行的进攻，Zombies必须首先攻击Pr, M-1；若需要对Pr, c（0≤c&lt;M-1）攻击，必须将Pr,M-1, Pr, M-2 … Pr, c+1先击溃，并移动到位置(r, c)才可进行攻击。<br>
+在本题的设定中，Plants的攻击力是无穷大的，一旦Zombie进入某个Plant的攻击位置，该Zombie会被瞬间消灭，而该Zombie没有时间进行任何攻击操作。因此，即便Zombie进入了一个Plant所在的位置，但该位置属于其他植物的攻击位置集合，则Zombie会被瞬间消灭而所在位置的植物则安然无恙（在我们的设定中，Plant的攻击位置不包含自身所在位置，否则你就不可能击溃它了）。<br>
+Zombies的目标是对Plants的阵地发起进攻并获得最大的能源收入。每一次，你可以选择一个可进攻的植物进行攻击。本题的目标为，制定一套Zombies的进攻方案，选择进攻哪些植物以及进攻的顺序，从而获得最大的能源收入。</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td height="20" colspan="2" align="left" valign="top" class="style2">输入格式 Input Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">               输入文件pvz.in的第一行包含两个整数N, M，分别表示地图的行数和列数。<br>
+接下来N×M行描述每个位置上植物的信息。第r×M + c + 1行按照如下格式给出植物Pr, c的信息：第一个整数为Score[Pr, c], 第二个整数为集合Attack[Pr, c]中的位置个数w，接下来w个位置信息（r’, c’），表示Pr, c可以攻击位置第r’ 行第c’ 列。
+         </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">输出格式 Output Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">输出文件pvz.out仅包含一个整数，表示可以获得的最大能源收入。注意，你也可以选择不进行任何攻击，这样能源收入为0。</td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输入 Sample Input </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textfield" cols="65" rows="10" readonly="readonly">3 2
+10 0
+20 0
+-10 0
+-5 1 0 0
+100 1 2 1
+100 0</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输出 Sample Output </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textarea" cols="65" rows="10" readonly="readonly">25</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">时间限制 Time Limitation</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">2s</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">注释 Hint</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">【样例说明】<br>
+在样例中, 植物P1,1可以攻击位置(0,0), P2, 0可以攻击位置(2,1)。<br>
+一个方案为，首先进攻P1,1, P0,1，此时可以攻击P0,0 。共得到能源收益为(-5)+20+10 = 25。注意, 位置(2,1)被植物P2,0保护，所以无法攻击第2行中的任何植物。<br>
+【大致数据规模】<br>
+约20%的数据满足1 ≤ N, M ≤ 5；<br>
+约40%的数据满足1 ≤ N, M ≤ 10；<br>
+约100%的数据满足1 ≤ N ≤ 20，1 ≤ M ≤ 30，-10000 ≤ Score ≤ 10000</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">来源 Source</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">noi2009</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 	 </td>
+    <td width="200" valign="top"><table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+      </tr>
+      <tr>
+        <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+        <td width="172" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" class="style1">Flag</div></td>
+            <td align="left" bgcolor="#F5F5F5">　　</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>题号</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_show.aspid1733.htm">P1733</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong><a href="#" title="请用鼠标拖动选择单元格中的文字即可显示类别">类型<span style="font-size: 9px">(?)</span></a></strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<span style="color: #F5F5F5">其它</span></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_listok.aspid1733.htm">1人</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>提交</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　3次</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过率</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　33%</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td width="60" height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>难度</strong></div></td>
+            <td width="109" align="left" bgcolor="#F5F5F5">　　1</td>
+            </tr>
+        </table></td>
+        <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+      </tr>
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+      </tr>
+    </table>
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="172" valign="top"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+            <tr align="center">
+              <td><span style="font-weight: bold"><a href="index.asp.htm">提交</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_discuss.aspid1733.htm">讨论</a></span></td>
+              <td><span style="font-weight: bold"><a href="index.asp.htm">题解</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_data_list.aspid1733.htm">数据</a></span></td>
+            </tr>
+          </table></td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+	  </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#424242"></td>
+    </tr>
+      </table>
+	  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" height="50">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td align="left" valign="top">
+			  　Copyright &copy; 2011-2011. Vijos 高效信息学在线评测系统</a>
+			  <script type="text/javascript" src="../js.tongji.linezing.com/1097391/tongji.js"></script><noscript><a href="../www.linezing.com/default.htm"></a></noscript>　<a href="help.asp.htm"><strong>帮助</strong></a><br />
+		    　<span style="font-size: 9px">Tyvj Information ---- <a href="rank.asp.htm">Total Users : 227</a> | <a href="online.asp.htm">Online Users / Processes : 71 / 398</a> | Processed Time : 8 ms | Server Time : 2014-1-21 17:02:37</span>		</td>
+			<td width="60" valign="top"></td>
+		  </tr>
+		</table>
+	  </td>
+    </tr>
+  </table>
+
+<style>
+#UserShowInfo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:68px;
+	z-index:100;
+	cursor: hand;
+	filter: Alpha(Opacity=10, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=70);
+}
+</style>
+
+<div id="UserShowInfo">
+    <div align="center">
+    <table width="440" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="2">
+		</td>
+	  </tr>
+      <tr>
+        <td>
+	  
+		<table  width="0" border="0" align="left" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td><table width="100%" border="0" align="left" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td width="48" rowspan="2"><img src="face/face1.gif" width="48" height="48"></td>
+                <td><div align="center"><a href="user_show.aspid1.htm" title="U1 - 通过0题 - Guest - 无 - P1706"><font color="#666666"><strong>Tyvj Guest</strong></font></a></div></td>
+              </tr>
+              <tr>
+                <td bordercolor="" dir=""><div align="center"><img src="face/stars0.gif" width="64" height="12"><img src="img/sex_0.gif" width="10" height="12" /></div></td>
+              </tr>
+              
+            </table></td>
+          </tr>
+        </table>
+</td>
+      </tr>
+    </table>
+	</div>
+</div>
+
+</body>
+</html>

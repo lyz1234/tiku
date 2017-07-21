@@ -1,0 +1,496 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd"><HTML>
+<!-- saved from url=(0051)http://172.20.6.3/Problem_Show.asp?ID=1709&a=ProbNF -->
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<title>Oj - vijos - P1709</title>
+<Meta http-equiv="Content-Type"      Content="text/html; charset=gb2312">
+<Meta http-equiv="Pragma"            Content="No-cach">
+<Meta name="Kyewords"                Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Description"             Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Robots"                  Content="All">
+<Meta name="Author"                  Content="cp1305@163.com">
+<Meta name="Copyright"               Content="Copyright Vijos (c) 2005. www.Vijos.cn Powered by Vivian Snow">
+<Meta name="Generator "              Content="Dreamweaver,Visual Studio .net 2003">
+<link href="skin/nature%20vert/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+window.status="欢迎访问OJ!";
+</script>
+</head>
+<body>
+<div align="center">  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><img src="skin/nature%20vert/haed.gif" width="750" height="70" border="0" usemap="#MapHead"></a><map name="MapHead" id="MapHead"><area shape="rect" coords="71,1,153,21" href="skin.asp.htm" alt="点击这里更换您喜欢的皮肤" /><area shape="rect" coords="0,0,750,70"  alt="首页" /></map></td>
+    </tr>
+	
+    <tr>
+      <td height="25" align="right" bgcolor="#174B73">
+	  <font class="styletext">
+	  
+	  请点击<a href="default.htm"><font color="#FFFFFF"><b>这里</b></font></a>登入
+	  
+	  </font>&nbsp;<a href="default.htm"><font class="style3">首页</font></a>
+	  <a href="core.asp.htm"><font class="style3">站务</font></a>
+	  <a href="news.asp.htm"><font class="style3">公告</font></a> 
+<a href="problem_data.asp.htm"><font class="style3">数据</a></font>
+	  <font class="style3">|</font> <a href="problem.asp.htm"><font class="style3">题库</font></a>
+	  <a href="categories.asp.htm"><font class="style3">分类</font></a>
+	  <a href="record.asp.htm"><font class="style3">记录</font></a>
+	  <a href="test.asp.htm"><font class="style3">测试</font></a>
+	  <a href="rank.asp.htm"><font class="style3">排名</font></a>
+	  <a href="group.asp.htm"><font class="style3">团队</font></a>
+	  <a href="discuss.asp.htm"><font class="style3">讨论</font></a> <font class="style3">| </font><a href="skin.asp.htm"><font class="style3">换肤</font></a><font class="style3">|</font><a href="logout.asp"><font class="style3">登入</font></a><a href="reg_state.asp.htm"><font class="style3">注册</font></a>
+	  </td>
+      <td align="center" bgcolor="#174B73">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#1B5987"></td>
+    </tr>
+	<tr>
+      <td colspan="2" align="center" bgcolor="#1B5987">
+	  
+	  
+	  <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="712" align="left" valign="middle">
+		  <marquee align="right" direction="left" scrollamount="4" onMouseOver="this.stop();" onMouseOut="this.start();">
+		  <font color="#003366"><b>公告 News &gt;&gt;</b></font>
+		  
+		  　　<a href="news.asp.htm#12"><font color="#006699"><b>题库第5页是历年noip原题</b> (2012-3-5 17:19:20)</font></a>
+		  
+		  　　<a href="news.asp.htm#10"><font color="#006699"><b>第一次wa意味这道题的锻炼机会失去了。</b> (2012-2-15 16:35:47)</font></a>
+		  
+		  　　<a href="news.asp.htm#7"><font color="#006699"><b>程序设计=算法+数据结构</b> (2011-12-4 23:42:52)</font></a>
+		  
+		  　　<a href="news.asp.htm#6"><font color="#006699"><b>c++ = c plus plus = cpp</b> (2011-11-28 11:12:24)</font></a>
+		  
+		  　　<a href="news.asp.htm#1"><font color="#006699"><b>oj重新开张，注册须知，否则封号。</b> (2002-1-1 21:41:45)</font></a>
+		  
+		  </marquee>
+		  </td>
+          <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	  <hr>
+	  </td>
+    </tr>
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+      <td colspan="2" align="center" bgcolor="#1B5987">
+<script>
+document.title=document.title+" - NOI2005第2天第1题_聪聪与可可"
+</script>
+<table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+    <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+  </tr>
+  <tr>
+    <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+    <td width="712" align="left" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><span style="font-weight: bold">From</span> <a href="user_show.aspid10625.htm">easthong</a></td>
+      </tr>
+    </table>      <font size="5"><a href="problem_show.aspid1709aprobnf.htm" alt="点击可标记为空星">★</a></font><a href="problem_show.aspid1709.htm"><font class="style1">NOI2005第2天第1题_聪聪与可可</font></a></td>
+    <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+  </tr>
+  <tr>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+    <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+  </tr>
+</table>
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="540" valign="top">
+
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">描述 Description </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">                在一个魔法森林里，住着一只聪明的小猫聪聪和一只可爱的小老鼠可可。虽然灰姑娘非常喜欢她们俩，但是，聪聪终究是一只猫，而可可终究是一只老鼠，同样不变的是，聪聪成天想着要吃掉可可。 一天，聪聪意外得到了一台非常有用的机器，据说是叫GPS，对可可能准确的定位。有了这台机器，聪聪要吃可可就易如反掌了。于是，聪聪准备马上出发，去找可可。而可怜的可可还不知道大难即将临头，仍在森林里无忧无虑的玩耍。小兔子乖乖听到这件事，马上向灰姑娘报告。灰姑娘决定尽快阻止聪聪，拯救可可，可她不知道还有没有足够的时间。 <br>
+ &nbsp;整个森林可以认为是一个无向图，图中有N 个美丽的景点，景点从1 至N编号。小动物们都只在景点休息、玩耍。在景点之间有一些路连接。当聪聪得到GPS时，可可正在景点M(M&lt;=N)处。以后的每个时间单位，可可都会选择去相邻的景点(可能有多个)中的一个或停留在原景点不动。而去这些地方所发生的概率是相等的。假设有P个景点与景点M相邻，它们分别是景点R、景点S，……景点Q，在时刻T可可处在景点M，则在(T＋1)时刻，可可有1/(p+1)的可能在景点R，有1/(p+1)的可能在景点S，……，有1/(p+1)的可能在景点Q，还有1/(p+1)的可能停在景点M。 <br>
+ &nbsp;我们知道，聪聪是很聪明的，所以，当她在景点C时，她会选一个更靠近可可的景点，如果这样的景点有多个，她会选一个标号最小的景点。由于聪聪太想吃掉可可了，如果走完第一步以后仍然没吃到可可，她还可以在本段时间内再向可可走近一步。 <br>
+ &nbsp;在每个时间单位，假设聪聪先走，可可后走。在某一时刻，若聪聪和可可位于同一个景点，则可怜的可可就被吃掉了。 <br>
+ &nbsp;灰姑娘想知道，平均情况下，聪聪几步就可能吃到可可。而你需要帮助灰姑娘尽快的找到答案。 </td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+         <td height="20" colspan="2" align="left" valign="top" class="style2">输入格式 Input Format</td>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">                数据的第1行为两个整数N 和E，以空格分隔，分别表示森林中的景点数和连接相邻景点的路的条数。 <br>
+ &nbsp;第2行包含两个整数C 和M，以空格分隔，分别表示初始时聪聪和可可所在的景点的编号。 <br>
+ &nbsp;接下来E 行，每行两个整数，第i+2行的两个整数Ai和Bi表示景点Ai和景点Bi之间有一条路。 <br>
+ &nbsp;所有的路都是无向的，即：如果能从A走到B，就可以从B走到A。 <br>
+ &nbsp;输入保证任何两个景点之间不会有多于一条路直接相连，且聪聪和可可之间必有路直接或间接的相连。 
+         </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+         <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">输出格式 Output Format</td>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">输出1个实数，四舍五入保留三位小数，表示平均多少个时间单位后聪聪会把可可吃掉。 </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输入 Sample Input </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textfield" cols="65" rows="10" readonly="readonly">4 3 
+1 4 
+1 2 
+2 3 
+3 4 </textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输出 Sample Output </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textarea" cols="65" rows="10" readonly="readonly">1.500 </textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">时间限制 Time Limitation</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">1s</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">注释 Hint</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">【样例说明1】 <br>
+开始时，聪聪和可可分别在景点1和景点4。 <br>
+第一个时刻，聪聪先走，她向更靠近可可(景点4)的景点走动，走到景点2,然后走到景点3；假定忽略走路所花时间。 <br>
+可可后走，有两种可能：第一种是走到景点3，这样聪聪和可可到达同一个景点，可可被吃掉，步数为1，概率为1/2。 第二种是停在景点4，不被吃掉。概率为1/2。 <br>
+到第二个时刻，聪聪向更靠近可可(景点4)的景点走动，只需要走一步即和可可在同一景点。因此这种情况下聪聪会在两步吃掉可可。 <br>
+所以平均的步数是1*1/2+2*1/2=1.5步。<br>
+<br>
+【输入样例2】 <br>
+9 9 <br>
+9 3 <br>
+1 2 <br>
+2 3 <br>
+3 4 <br>
+4 5 <br>
+3 6 <br>
+4 6 <br>
+4 7 <br>
+7 8 <br>
+8 9 <br>
+【输出样例2】 <br>
+2.167 <br>
+<br>
+【样例说明2】 <br>
+森林如下图所示： <br>
+<a href="about:<img src=./problemImg/noi200517.gif border=0>" target=_blank><img src=problemimg/noi200517.gif vspace=2 hspace=2 border=0 alt=::点击图片在新窗口中打开::></a><br>
+<br>
+【数据范围】 <br>
+对于所有的数据，1&lt;=N,E&lt;=1000。 <br>
+对于50%的数据，1&lt;=N&lt;=50。</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">来源 Source</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">noi2005day2</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 	 </td>
+    <td width="200" valign="top"><table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+        <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+      </tr>
+      <tr>
+        <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+        <td width="172" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" class="style1">Flag</div></td>
+            <td align="left" bgcolor="#F5F5F5">　　</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>题号</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_show.aspid1709.htm">P1709</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong><a href="#" title="请用鼠标拖动选择单元格中的文字即可显示类别">类型<span style="font-size: 9px">(?)</span></a></strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<span style="color: #F5F5F5">其它</span></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_listok.aspid1709.htm">0人</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>提交</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0次</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过率</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0%</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td width="60" height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>难度</strong></div></td>
+            <td width="109" align="left" bgcolor="#F5F5F5">　　1</td>
+            </tr>
+        </table></td>
+        <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+      </tr>
+      <tr>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+        <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+      </tr>
+    </table>
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="172" valign="top"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+            <tr align="center">
+              <td><span style="font-weight: bold"><a href="index.asp.htm">提交</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_discuss.aspid1709.htm">讨论</a></span></td>
+              <td><span style="font-weight: bold"><a href="index.asp.htm">题解</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_data_list.aspid1709.htm">数据</a></span></td>
+            </tr>
+          </table></td>
+          <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+	  </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="5" bgcolor="#1B5987"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#003366"></td>
+    </tr>
+      </table>
+	  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" height="50">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td align="left" valign="top">
+			  　Copyright &copy; 2011-2011. Vijos 高效信息学在线评测系统</a>
+			  <script type="text/javascript" src="../js.tongji.linezing.com/1097391/tongji.js"></script><noscript><a href="../www.linezing.com/default.htm"></a></noscript>　<a href="help.asp.htm"><strong>帮助</strong></a><br />
+		    　<span style="font-size: 9px">Tyvj Information ---- <a href="rank.asp.htm">Total Users : 227</a> | <a href="online.asp.htm">Online Users / Processes : 71 / 402</a> | Processed Time : 16 ms | Server Time : 2014-1-21 18:02:09</span>		</td>
+			<td width="60" valign="top"></td>
+		  </tr>
+		</table>
+	  </td>
+    </tr>
+  </table>
+
+<style>
+#UserShowInfo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:68px;
+	z-index:100;
+	cursor: hand;
+	filter: Alpha(Opacity=10, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=70);
+}
+</style>
+
+<div id="UserShowInfo">
+    <div align="center">
+    <table width="440" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="2">
+		</td>
+	  </tr>
+      <tr>
+        <td>
+	  
+		<table  width="0" border="0" align="left" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td><table width="100%" border="0" align="left" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td width="48" rowspan="2"><img src="face/face1.gif" width="48" height="48"></td>
+                <td><div align="center"><a href="user_show.aspid1.htm" title="U1 - 通过0题 - Guest - 无 - P1708"><font color="#666666"><strong>Tyvj Guest</strong></font></a></div></td>
+              </tr>
+              <tr>
+                <td bordercolor="" dir=""><div align="center"><img src="face/stars0.gif" width="64" height="12"><img src="img/sex_0.gif" width="10" height="12" /></div></td>
+              </tr>
+              
+            </table></td>
+          </tr>
+        </table>
+</td>
+      </tr>
+    </table>
+	</div>
+</div>
+
+</body>
+</html>

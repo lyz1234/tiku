@@ -1,0 +1,498 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd"><HTML>
+<!-- saved from url=(0042)http://172.20.6.3/Problem_Show.asp?id=1700 -->
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<title>Oj - vijos - P1700</title>
+<Meta http-equiv="Content-Type"      Content="text/html; charset=gb2312">
+<Meta http-equiv="Pragma"            Content="No-cach">
+<Meta name="Kyewords"                Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Description"             Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Robots"                  Content="All">
+<Meta name="Author"                  Content="cp1305@163.com">
+<Meta name="Copyright"               Content="Copyright Vijos (c) 2005. www.Vijos.cn Powered by Vivian Snow">
+<Meta name="Generator "              Content="Dreamweaver,Visual Studio .net 2003">
+<link href="skin/vijos%20black/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+window.status="欢迎访问OJ!";
+</script>
+</head>
+<body>
+<div align="center">  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><img src="skin/vijos%20black/haed.gif" width="750" height="70" border="0" usemap="#MapHead"></a><map name="MapHead" id="MapHead"><area shape="rect" coords="71,1,153,21" href="skin.asp.htm" alt="点击这里更换您喜欢的皮肤" /><area shape="rect" coords="0,0,750,70"  alt="首页" /></map></td>
+    </tr>
+	
+    <tr>
+      <td height="25" align="right" bgcolor="#525252">
+	  <font class="styletext">
+	  
+	  请点击<a href="default.htm"><font color="#FFFFFF"><b>这里</b></font></a>登入
+	  
+	  </font>&nbsp;<a href="default.htm"><font class="style3">首页</font></a>
+	  <a href="core.asp.htm"><font class="style3">站务</font></a>
+	  <a href="news.asp.htm"><font class="style3">公告</font></a> 
+<a href="problem_data.asp.htm"><font class="style3">数据</a></font>
+	  <font class="style3">|</font> <a href="problem.asp.htm"><font class="style3">题库</font></a>
+	  <a href="categories.asp.htm"><font class="style3">分类</font></a>
+	  <a href="record.asp.htm"><font class="style3">记录</font></a>
+	  <a href="test.asp.htm"><font class="style3">测试</font></a>
+	  <a href="rank.asp.htm"><font class="style3">排名</font></a>
+	  <a href="group.asp.htm"><font class="style3">团队</font></a>
+	  <a href="discuss.asp.htm"><font class="style3">讨论</font></a> <font class="style3">| </font><a href="skin.asp.htm"><font class="style3">换肤</font></a><font class="style3">|</font><a href="logout.asp"><font class="style3">登入</font></a><a href="reg_state.asp.htm"><font class="style3">注册</font></a>
+	  </td>
+      <td align="center" bgcolor="#525252">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+	  
+	  
+	  <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="712" align="left" valign="middle">
+		  <marquee align="right" direction="left" scrollamount="4" onMouseOver="this.stop();" onMouseOut="this.start();">
+		  <font color="#003366"><b>公告 News &gt;&gt;</b></font>
+		  
+		  　　<a href="news.asp.htm#12"><font color="#006699"><b>题库第5页是历年noip原题</b> (2012-3-5 17:19:20)</font></a>
+		  
+		  　　<a href="news.asp.htm#10"><font color="#006699"><b>第一次wa意味这道题的锻炼机会失去了。</b> (2012-2-15 16:35:47)</font></a>
+		  
+		  　　<a href="news.asp.htm#7"><font color="#006699"><b>程序设计=算法+数据结构</b> (2011-12-4 23:42:52)</font></a>
+		  
+		  　　<a href="news.asp.htm#6"><font color="#006699"><b>c++ = c plus plus = cpp</b> (2011-11-28 11:12:24)</font></a>
+		  
+		  　　<a href="news.asp.htm#1"><font color="#006699"><b>oj重新开张，注册须知，否则封号。</b> (2002-1-1 21:41:45)</font></a>
+		  
+		  </marquee>
+		  </td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	  <hr>
+	  </td>
+    </tr>
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+<script>
+document.title=document.title+" - NOI2004第1天第1题_郁闷的出纳员"
+</script>
+<table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+  </tr>
+  <tr>
+    <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+    <td width="712" align="left" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><span style="font-weight: bold">From</span> <a href="user_show.aspid1.htm">Tyvj Guest</a></td>
+      </tr>
+    </table>      <font size="5"><a href="problem_show.aspid1700aprobnf.htm" alt="点击可标记为实星">☆</a></font><a href="problem_show.aspid1700.htm"><font class="style1">NOI2004第1天第1题_郁闷的出纳员</font></a></td>
+    <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+  </tr>
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+  </tr>
+</table>
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="540" valign="top">
+
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">描述 Description </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">                OIER公司是一家大型专业化软件公司，有着数以万计的员工。作为一名出纳员，我的任务之一便是统计每位员工的工资。这本来是一份不错的工作，但是令人郁闷的是，我们的老板反复无常，经常调整员工的工资。如果他心情好，就可能把每位员工的工资加上一个相同的量。反之，如果心情不好，就可能把他们的工资扣除一个相同的量。我真不知道除了调工资他还做什么其它事情。<br>
+工资的频繁调整很让员工反感，尤其是集体扣除工资的时候，一旦某位员工发现自己的工资已经低于了合同规定的工资下界，他就会立刻气愤地离开公司，并且再也不会回来了。每位员工的工资下界都是统一规定的。每当一个人离开公司，我就要从电脑中把他的工资档案删去，同样，每当公司招聘了一位新员工，我就得为他新建一个工资档案。<br>
+老板经常到我这边来询问工资情况，他并不问具体某位员工的工资情况，而是问现在工资第k多的员工拿多少工资。每当这时，我就不得不对数万个员工进行一次漫长的排序，然后告诉他答案。<br>
+好了，现在你已经对我的工作了解不少了。正如你猜的那样，我想请你编一个工资统计程序。怎么样，不是很困难吧？<br>
+</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td height="20" colspan="2" align="left" valign="top" class="style2">输入格式 Input Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">               第一行有两个非负整数n和min。n表示下面有多少条命令，min表示工资下界。<br>
+接下来的n行，每行表示一条命令。命令可以是以下四种之一：<br>
+<br>
+名称	格式	作用<br>
+I命令	I_k	新建一个工资档案，初始工资为k。如果某员工的初始工资低于工资下界，他将立刻离开公司,但不计入离开人数中。<br>
+A命令	A_k	把每位员工的工资加上k<br>
+S命令	S_k	把每位员工的工资扣除k<br>
+F命令	F_k	查询第k多的工资<br>
+<br>
+_（下划线）表示一个空格，I命令、A命令、S命令中的k是一个非负整数，F命令中的k是一个正整数。<br>
+在初始时，可以认为公司里一个员工也没有。
+         </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">输出格式 Output Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">输出文件的行数为F命令的条数加一。<br>
+对于每条F命令，你的程序要输出一行，仅包含一个整数，为当前工资第k多的员工所拿的工资数，如果k大于目前员工的数目，则输出-1。<br>
+输出文件的最后一行包含一个整数，为离开公司的员工的总数。</td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输入 Sample Input </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textfield" cols="65" rows="10" readonly="readonly">9 10
+I 60
+I 70
+S 50
+F 2
+I 30
+S 15
+A 5
+F 1
+F 2</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输出 Sample Output </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textarea" cols="65" rows="10" readonly="readonly">10
+20
+-1
+2</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">时间限制 Time Limitation</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">1s</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">注释 Hint</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">【约定】<br>
+I命令的条数不超过100000<br>
+A命令和S命令的总条数不超过100<br>
+F命令的条数不超过100000<br>
+每次工资调整的调整量不超过1000<br>
+新员工的工资不超过100000<br>
+<br>
+【评分方法】<br>
+对于每个测试点，如果你输出文件的行数不正确，或者输出文件中含有非法字符，得分为0。<br>
+本题在此每个测试点要么0分,要么10分.<br>
+原来是这样评测的：<br>
+否则你的得分按如下方法计算：如果对于所有的F命令，你都输出了正确的答案，并且最后输出的离开公司的人数也是正确的，你将得到10分；如果你只对所有的F命令输出了正确答案，得6分；如果只有离开公司的人数是正确的，得4分；否则得0分。<br>
+<br>
+<br>
+</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">来源 Source</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">noi2004 day1</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 	 </td>
+    <td width="200" valign="top"><table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+      </tr>
+      <tr>
+        <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+        <td width="172" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" class="style1">Flag</div></td>
+            <td align="left" bgcolor="#F5F5F5">　　</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>题号</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_show.aspid1700.htm">P1700</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong><a href="#" title="请用鼠标拖动选择单元格中的文字即可显示类别">类型<span style="font-size: 9px">(?)</span></a></strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<span style="color: #F5F5F5">其它</span></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_listok.aspid1700.htm">1人</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>提交</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　3次</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过率</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　33%</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td width="60" height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>难度</strong></div></td>
+            <td width="109" align="left" bgcolor="#F5F5F5">　　0</td>
+            </tr>
+        </table></td>
+        <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+      </tr>
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+      </tr>
+    </table>
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="172" valign="top"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+            <tr align="center">
+              <td><span style="font-weight: bold"><a href="index.asp.htm">提交</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_discuss.aspid1700.htm">讨论</a></span></td>
+              <td><span style="font-weight: bold"><a href="index.asp.htm">题解</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_data_list.aspid1700.htm">数据</a></span></td>
+            </tr>
+          </table></td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+	  </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#424242"></td>
+    </tr>
+      </table>
+	  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" height="50">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td align="left" valign="top">
+			  　Copyright &copy; 2011-2011. Vijos 高效信息学在线评测系统</a>
+			  <script type="text/javascript" src="../js.tongji.linezing.com/1097391/tongji.js"></script><noscript><a href="../www.linezing.com/default.htm"></a></noscript>　<a href="help.asp.htm"><strong>帮助</strong></a><br />
+		    　<span style="font-size: 9px">Tyvj Information ---- <a href="rank.asp.htm">Total Users : 227</a> | <a href="online.asp.htm">Online Users / Processes : 71 / 398</a> | Processed Time : 8 ms | Server Time : 2014-1-21 17:02:03</span>		</td>
+			<td width="60" valign="top"></td>
+		  </tr>
+		</table>
+	  </td>
+    </tr>
+  </table>
+
+<style>
+#UserShowInfo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:68px;
+	z-index:100;
+	cursor: hand;
+	filter: Alpha(Opacity=10, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=70);
+}
+</style>
+
+<div id="UserShowInfo">
+    <div align="center">
+    <table width="440" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="2">
+		</td>
+	  </tr>
+      <tr>
+        <td>
+	  
+		<table  width="0" border="0" align="left" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td><table width="100%" border="0" align="left" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td width="48" rowspan="2"><img src="face/face1.gif" width="48" height="48"></td>
+                <td><div align="center"><a href="user_show.aspid1.htm" title="U1 - 通过0题 - Guest - 无 - P1675"><font color="#666666"><strong>Tyvj Guest</strong></font></a></div></td>
+              </tr>
+              <tr>
+                <td bordercolor="" dir=""><div align="center"><img src="face/stars0.gif" width="64" height="12"><img src="img/sex_0.gif" width="10" height="12" /></div></td>
+              </tr>
+              
+            </table></td>
+          </tr>
+        </table>
+</td>
+      </tr>
+    </table>
+	</div>
+</div>
+
+</body>
+</html>

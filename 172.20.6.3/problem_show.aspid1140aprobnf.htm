@@ -1,0 +1,432 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd"><HTML>
+<!-- saved from url=(0051)http://172.20.6.3/Problem_Show.asp?ID=1140&a=ProbNF -->
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<title>Oj - vijos - P1140</title>
+<Meta http-equiv="Content-Type"      Content="text/html; charset=gb2312">
+<Meta http-equiv="Pragma"            Content="No-cach">
+<Meta name="Kyewords"                Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Description"             Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Robots"                  Content="All">
+<Meta name="Author"                  Content="cp1305@163.com">
+<Meta name="Copyright"               Content="Copyright Vijos (c) 2005. www.Vijos.cn Powered by Vivian Snow">
+<Meta name="Generator "              Content="Dreamweaver,Visual Studio .net 2003">
+<link href="skin/vijos%20black/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+window.status="欢迎访问OJ!";
+</script>
+</head>
+<body>
+<div align="center">  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><img src="skin/vijos%20black/haed.gif" width="750" height="70" border="0" usemap="#MapHead"></a><map name="MapHead" id="MapHead"><area shape="rect" coords="71,1,153,21" href="skin.asp.htm" alt="点击这里更换您喜欢的皮肤" /><area shape="rect" coords="0,0,750,70"  alt="首页" /></map></td>
+    </tr>
+	
+    <tr>
+      <td height="25" align="right" bgcolor="#525252">
+	  <font class="styletext">
+	  
+	  请点击<a href="default.htm"><font color="#FFFFFF"><b>这里</b></font></a>登入
+	  
+	  </font>&nbsp;<a href="default.htm"><font class="style3">首页</font></a>
+	  <a href="core.asp.htm"><font class="style3">站务</font></a>
+	  <a href="news.asp.htm"><font class="style3">公告</font></a> 
+<a href="problem_data.asp.htm"><font class="style3">数据</a></font>
+	  <font class="style3">|</font> <a href="problem.asp.htm"><font class="style3">题库</font></a>
+	  <a href="categories.asp.htm"><font class="style3">分类</font></a>
+	  <a href="record.asp.htm"><font class="style3">记录</font></a>
+	  <a href="test.asp.htm"><font class="style3">测试</font></a>
+	  <a href="rank.asp.htm"><font class="style3">排名</font></a>
+	  <a href="group.asp.htm"><font class="style3">团队</font></a>
+	  <a href="discuss.asp.htm"><font class="style3">讨论</font></a> <font class="style3">| </font><a href="skin.asp.htm"><font class="style3">换肤</font></a><font class="style3">|</font><a href="logout.asp"><font class="style3">登入</font></a><a href="reg_state.asp.htm"><font class="style3">注册</font></a>
+	  </td>
+      <td align="center" bgcolor="#525252">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+	  
+	  
+	  <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="712" align="left" valign="middle">
+		  <marquee align="right" direction="left" scrollamount="4" onMouseOver="this.stop();" onMouseOut="this.start();">
+		  <font color="#003366"><b>公告 News &gt;&gt;</b></font>
+		  
+		  　　<a href="news.asp.htm#12"><font color="#006699"><b>题库第5页是历年noip原题</b> (2012-3-5 17:19:20)</font></a>
+		  
+		  　　<a href="news.asp.htm#10"><font color="#006699"><b>第一次wa意味这道题的锻炼机会失去了。</b> (2012-2-15 16:35:47)</font></a>
+		  
+		  　　<a href="news.asp.htm#7"><font color="#006699"><b>程序设计=算法+数据结构</b> (2011-12-4 23:42:52)</font></a>
+		  
+		  　　<a href="news.asp.htm#6"><font color="#006699"><b>c++ = c plus plus = cpp</b> (2011-11-28 11:12:24)</font></a>
+		  
+		  　　<a href="news.asp.htm#1"><font color="#006699"><b>oj重新开张，注册须知，否则封号。</b> (2002-1-1 21:41:45)</font></a>
+		  
+		  </marquee>
+		  </td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	  <hr>
+	  </td>
+    </tr>
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+      <td colspan="2" align="center" bgcolor="#5B5B5B">
+<script>
+document.title=document.title+" - 飞船控制站"
+</script>
+<table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+  </tr>
+  <tr>
+    <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+    <td width="712" align="left" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><span style="font-weight: bold">From</span> <a href="user_show.aspid10625.htm">easthong</a></td>
+      </tr>
+    </table>      <font size="5"><a href="problem_show.aspid1140aprobnf.htm" alt="点击可标记为空星">★</a></font><a href="problem_show.aspid1140.htm"><font class="style1">飞船控制站</font></a></td>
+    <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+  </tr>
+  <tr>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+    <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+    <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+  </tr>
+</table>
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="540" valign="top">
+
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">描述 Description </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">                “神州七号”飞船已经圆满发射成功了，你可知道飞船的顺利运行离不开地面对其的测控吗？因而必须保证飞船运行的轨道被测控站的雷达所全部覆盖，才能正常接受和传输信号。而由于测控站所控制的范围越小，信号接收情况越好，技术难度也越低。所以我们希望在覆盖整个轨道的前提下，使得测控站所需控制的范围越小越好。由于条件限制，最多只能建立K个测控范围相同的测控站，而且并不是任何位置都可以建立测控站的，所以需要找出一种方案，使得所需测控的范围尽量小。虽然离真正的模型还有一定差距，但喜欢编程的你当然对此问题跃跃欲试了。<br>
+<br>
+为了你的方便，已经帮你把地球抽象展开成一个N*2M的平面矩阵（N为奇数）。其中前M列是东半球，后M列是西半球，最中间的一行为赤道。为了简化问题，飞船的轨道可以看作是在一条穿越东西半球的经线上空（虽然实际并非如此），在此矩阵表示为第I列和第I+M列（1&lt;=I&lt;=M）两端对接形成的一个环。矩阵的每一个格子中可以建立一个监测站，但某些格子除外(比如其他国家的领土或是条件恶劣的地区)。假设测控半径为R，则每个测控站的控制范围可以向上向下各延伸R个格子，即总长度为2R+1的区间。测控范围的重叠并不会相互影响，并且显然有R&gt;=0且2R+1&lt;=N（因为地球是圆的，测控范围最多只能是一个半球）。<br>
+<br>
+<br>
+由于飞船有M条可选轨道，所以需要你计算出对于每条轨道，最小的测控半径是多少。注意由于控制的需要，对于任意一条轨道，在东半球的赤道上都必须建立一个测控站，并且保证在东半球的赤道上建站不会有限制。<br>
+</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td height="20" colspan="2" align="left" valign="top" class="style2">输入格式 Input Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">               输入的第一行为三个正整数N，M，K表示矩阵的大小以及测控站的数量。保证有（2&lt;=N，M&lt;=1000,2&lt;=K&lt;=2N，N为奇数）。接下来N行，每行2M个字符，如果是1则表示可以放置测控站，否则为0表示无法放置。（保证中间一行的前M个字符一定为1）
+         </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+         <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">输出格式 Output Format</td>
+         <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">输出包含M行，每行包含一个正整数，第I行表示第I条轨道所需最小的测控半径R为多少(保证必然有解),轨道从左到右依次编号。</td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输入 Sample Input </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textfield" cols="65" rows="10" readonly="readonly">5 2 4	
+0110
+0000
+1100
+0011
+1000
+</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输出 Sample Output </td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textarea" cols="65" rows="10" readonly="readonly">1
+2
+</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">注释 Hint</td>
+          <td rowspan="2" background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">对于轨道1:从第一行第一列开始向下可以展开为0010101001(首尾相连)<br>
+对于轨道2:从第一行第二列开始向下可以展开为1010001000(首尾相连)<br>
+两条轨道均把可选点全部建站即可。<br>
+<br>
+数据规模:<br>
+对于30%的数据,有N,M&lt;=15<br>
+对于60%的数据,有N,M&lt;=100	<br>
+对于100%的数据,有N,M&lt;=1000<br>
+</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 	 </td>
+    <td width="200" valign="top"><table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+      </tr>
+      <tr>
+        <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+        <td width="172" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" class="style1">Flag</div></td>
+            <td align="left" bgcolor="#F5F5F5">　　</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>题号</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_show.aspid1140.htm">P1140</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong><a href="#" title="请用鼠标拖动选择单元格中的文字即可显示类别">类型<span style="font-size: 9px">(?)</span></a></strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<span style="color: #F5F5F5">其它</span></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_listok.aspid1140.htm">0人</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>提交</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0次</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过率</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0%</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td width="60" height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>难度</strong></div></td>
+            <td width="109" align="left" bgcolor="#F5F5F5">　　1</td>
+            </tr>
+        </table></td>
+        <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+      </tr>
+      <tr>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+        <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+        <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+      </tr>
+    </table>
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/vijos%20black/frame_r2_c1.gif"></td>
+          <td width="172" valign="top"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+            <tr align="center">
+              <td><span style="font-weight: bold"><a href="index.asp.htm">提交</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_discuss.aspid1140.htm">讨论</a></span></td>
+              <td><span style="font-weight: bold"><a href="index.asp.htm">题解</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_data_list.aspid1140.htm">数据</a></span></td>
+            </tr>
+          </table></td>
+          <td background="skin/vijos%20black/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c1.gif"></td>
+          <td background="skin/vijos%20black/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/vijos%20black/frame_r3_c3.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+	  </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="5" bgcolor="#5B5B5B"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#424242"></td>
+    </tr>
+      </table>
+	  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" height="50">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td align="left" valign="top">
+			  　Copyright &copy; 2011-2011. Vijos 高效信息学在线评测系统</a>
+			  <script type="text/javascript" src="../js.tongji.linezing.com/1097391/tongji.js"></script><noscript><a href="../www.linezing.com/default.htm"></a></noscript>　<a href="help.asp.htm"><strong>帮助</strong></a><br />
+		    　<span style="font-size: 9px">Tyvj Information ---- <a href="rank.asp.htm">Total Users : 227</a> | <a href="online.asp.htm">Online Users / Processes : 71 / 401</a> | Processed Time : 8 ms | Server Time : 2014-1-21 17:49:11</span>		</td>
+			<td width="60" valign="top"></td>
+		  </tr>
+		</table>
+	  </td>
+    </tr>
+  </table>
+
+<style>
+#UserShowInfo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:68px;
+	z-index:100;
+	cursor: hand;
+	filter: Alpha(Opacity=10, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=70);
+}
+</style>
+
+<div id="UserShowInfo">
+    <div align="center">
+    <table width="440" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="2">
+		</td>
+	  </tr>
+      <tr>
+        <td>
+	  
+		<table  width="0" border="0" align="left" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td><table width="100%" border="0" align="left" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td width="48" rowspan="2"><img src="face/face1.gif" width="48" height="48"></td>
+                <td><div align="center"><a href="user_show.aspid1.htm" title="U1 - 通过0题 - Guest - 无 - P1140"><font color="#666666"><strong>Tyvj Guest</strong></font></a></div></td>
+              </tr>
+              <tr>
+                <td bordercolor="" dir=""><div align="center"><img src="face/stars0.gif" width="64" height="12"><img src="img/sex_0.gif" width="10" height="12" /></div></td>
+              </tr>
+              
+            </table></td>
+          </tr>
+        </table>
+</td>
+      </tr>
+    </table>
+	</div>
+</div>
+
+</body>
+</html>

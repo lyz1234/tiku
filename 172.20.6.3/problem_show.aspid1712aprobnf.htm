@@ -1,0 +1,486 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd"><HTML>
+<!-- saved from url=(0051)http://172.20.6.3/Problem_Show.asp?ID=1712&a=ProbNF -->
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<title>Oj - vijos - P1712</title>
+<Meta http-equiv="Content-Type"      Content="text/html; charset=gb2312">
+<Meta http-equiv="Pragma"            Content="No-cach">
+<Meta name="Kyewords"                Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Description"             Content="Vijos,高效信息学在线评测系统,Velocious Informatics Judge Online System,Vivian Utopia,Viviworks,信息学,评测,OJ">
+<Meta name="Robots"                  Content="All">
+<Meta name="Author"                  Content="cp1305@163.com">
+<Meta name="Copyright"               Content="Copyright Vijos (c) 2005. www.Vijos.cn Powered by Vivian Snow">
+<Meta name="Generator "              Content="Dreamweaver,Visual Studio .net 2003">
+<link href="skin/nature%20vert/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+window.status="欢迎访问OJ!";
+</script>
+</head>
+<body>
+<div align="center">  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><img src="skin/nature%20vert/haed.gif" width="750" height="70" border="0" usemap="#MapHead"></a><map name="MapHead" id="MapHead"><area shape="rect" coords="71,1,153,21" href="skin.asp.htm" alt="点击这里更换您喜欢的皮肤" /><area shape="rect" coords="0,0,750,70"  alt="首页" /></map></td>
+    </tr>
+	
+    <tr>
+      <td height="25" align="right" bgcolor="#174B73">
+	  <font class="styletext">
+	  
+	  请点击<a href="default.htm"><font color="#FFFFFF"><b>这里</b></font></a>登入
+	  
+	  </font>&nbsp;<a href="default.htm"><font class="style3">首页</font></a>
+	  <a href="core.asp.htm"><font class="style3">站务</font></a>
+	  <a href="news.asp.htm"><font class="style3">公告</font></a> 
+<a href="problem_data.asp.htm"><font class="style3">数据</a></font>
+	  <font class="style3">|</font> <a href="problem.asp.htm"><font class="style3">题库</font></a>
+	  <a href="categories.asp.htm"><font class="style3">分类</font></a>
+	  <a href="record.asp.htm"><font class="style3">记录</font></a>
+	  <a href="test.asp.htm"><font class="style3">测试</font></a>
+	  <a href="rank.asp.htm"><font class="style3">排名</font></a>
+	  <a href="group.asp.htm"><font class="style3">团队</font></a>
+	  <a href="discuss.asp.htm"><font class="style3">讨论</font></a> <font class="style3">| </font><a href="skin.asp.htm"><font class="style3">换肤</font></a><font class="style3">|</font><a href="logout.asp"><font class="style3">登入</font></a><a href="reg_state.asp.htm"><font class="style3">注册</font></a>
+	  </td>
+      <td align="center" bgcolor="#174B73">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#1B5987"></td>
+    </tr>
+	<tr>
+      <td colspan="2" align="center" bgcolor="#1B5987">
+	  
+	  
+	  <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="712" align="left" valign="middle">
+		  <marquee align="right" direction="left" scrollamount="4" onMouseOver="this.stop();" onMouseOut="this.start();">
+		  <font color="#003366"><b>公告 News &gt;&gt;</b></font>
+		  
+		  　　<a href="news.asp.htm#12"><font color="#006699"><b>题库第5页是历年noip原题</b> (2012-3-5 17:19:20)</font></a>
+		  
+		  　　<a href="news.asp.htm#10"><font color="#006699"><b>第一次wa意味这道题的锻炼机会失去了。</b> (2012-2-15 16:35:47)</font></a>
+		  
+		  　　<a href="news.asp.htm#7"><font color="#006699"><b>程序设计=算法+数据结构</b> (2011-12-4 23:42:52)</font></a>
+		  
+		  　　<a href="news.asp.htm#6"><font color="#006699"><b>c++ = c plus plus = cpp</b> (2011-11-28 11:12:24)</font></a>
+		  
+		  　　<a href="news.asp.htm#1"><font color="#006699"><b>oj重新开张，注册须知，否则封号。</b> (2002-1-1 21:41:45)</font></a>
+		  
+		  </marquee>
+		  </td>
+          <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	  <hr>
+	  </td>
+    </tr>
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+      <td colspan="2" align="center" bgcolor="#1B5987">
+<script>
+document.title=document.title+" - NOI2006第1天第1题_网络收费"
+</script>
+<table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+    <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+  </tr>
+  <tr>
+    <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+    <td width="712" align="left" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><span style="font-weight: bold">From</span> <a href="user_show.aspid10625.htm">easthong</a></td>
+      </tr>
+    </table>      <font size="5"><a href="problem_show.aspid1712aprobnf.htm" alt="点击可标记为空星">★</a></font><a href="problem_show.aspid1712.htm"><font class="style1">NOI2006第1天第1题_网络收费</font></a></td>
+    <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+  </tr>
+  <tr>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+    <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+    <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+  </tr>
+</table>
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="540" valign="top">
+
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">描述 Description </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">                网络已经成为当今世界不可或缺的一部分。每天都有数以亿计的人使用网络进行学习、科研、娱乐等活动。然而，不可忽视的一点就是网络本身有着庞大的运行费用。所以，向使用网络的人进行适当的收费是必须的，也是合理的。 <br>
+ &nbsp;MY市NS中学就有着这样一个教育网络。网络中的用户一共有2N 个，编号依次为1, 2, 3, …, 2N。这些用户之间是用路由点和网线组成的。用户、路由点与网线共同构成一个满二叉树结构。树中的每一个叶子结点都是一个用户，每一个非叶子结点（灰色）都是一个路由点，而每一条边都是一条网线（见下图，用户结点中的数字为其编号）。 <br>
+ &nbsp;<br>
+ &nbsp;<a href="about:<img src=./problemImg/noi200601.gif border=0>" target=_blank><img src=problemimg/noi200601.gif vspace=2 hspace=2 border=0 alt=::点击图片在新窗口中打开::></a><br>
+ &nbsp; <br>
+ &nbsp;MY网络公司的网络收费方式比较奇特，称为&quot;配对收费&quot;。即对于每两个用户i, j (1&lt;=i&lt;j&lt;=2^N) 进行收费。由于用户可以自行选择两种付费方式A、B中的一种，所以网络公司向学校收取的费用与每一位用户的付费方式有关。该费用等于每两位不同用户配对产生费用之和。 <br>
+ &nbsp;为了描述方便，首先定义这棵网络树上的一些概念： <br>
+ &nbsp;(1)祖先：根结点没有祖先，非根结点的祖先包括它的父亲以及它的父亲的祖先； <br>
+ &nbsp;(2)管辖叶结点：叶结点本身不管辖任何叶结点，非叶结点管辖它的左儿子所管辖的叶结点与它的右儿子所管辖的叶结点； <br>
+ &nbsp;(3)距离：在树上连接两个点之间的用边最少的路径所含的边数。 <br>
+ &nbsp;对于任两个用户i, j (1&lt;=i&lt;j&lt;=2^N )，首先在树上找到与它们距离最近的公共祖先：路由点P，然后观察P 所管辖的叶结点（即用户）中选择付费方式A与B的人数，分别记为nA 与nB，接着按照网络管理条例第X 章第Y条第Z款进行收费（如下表），其中Fi, j 为i 和j 之间的流量，且为已知量。 <br>
+ &nbsp;<a href="about:<img src=./problemImg/noi200602.gif border=0>" target=_blank><img src=problemimg/noi200602.gif vspace=2 hspace=2 border=0 alt=::点击图片在新窗口中打开::></a><br>
+ &nbsp;由于最终所付费用与付费方式有关，所以NS 中学的用户希望能够自行改变自己的付费方式以减少总付费。然而，由于网络公司已经将每个用户注册时所选择的付费方式记录在案，所以对于用户i，如果他/她想改变付费方式（由A改为B或由B改为A），就必须支付Ci元给网络公司以修改档案（修改付费方式记录）。 <br>
+ &nbsp;现在的问题是，给定每个用户注册时所选择的付费方式以及Ci，试求这些用户应该如何选择自己的付费方式以使得NS 中学支付给网络公司的总费用最少.（更改付费方式费用+配对收费的费用）。 </td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+         <td height="20" colspan="2" align="left" valign="top" class="style2">输入格式 Input Format</td>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">               第一行有一个正整数N。 <br>
+第二行有2^N个整数，依次表示1号，2号，…，2^N号用户注册时的付费方式，每一个数字若为0，则表示对应用户的初始付费方式为A，否则该数字为1，表示付费方式为B。 <br>
+第三行有2^N个整数，表示每一个用户修改付费方式需要支付的费用，依次为C1,C2,…,CM。( M=2^N) <br>
+以下(2^N)-1 行描述给定的两两用户之间的流量表F，总第(i+3)行第j 列的整<br>
+数为F(i,j+i)（1&lt;=i&lt;2^N,1&lt;=j&lt;=(2^N)-i） <br>
+所有变量的含义可以参见题目描述。 
+         </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+     <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+       </tr>
+       <tr>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+         <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">输出格式 Output Format</td>
+         <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+       </tr>
+       <tr>
+         <td width="10" align="left" valign="top">&nbsp; </td>
+         <td width="502" align="left" valign="top">你的程序只需要向输出文件输出一个整数，表示NS 中学支付给网络公司的最小总费用。（单位：元） </td>
+       </tr>
+       <tr>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+         <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+         <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+       </tr>
+     </table>
+     
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输入 Sample Input </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textfield" cols="65" rows="10" readonly="readonly">2 
+1 0 1 0 
+2 2 10 9 
+10 1 2 
+2 1 
+3 </textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">样例输出 Sample Output </td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top" class="stylefornew"><textarea name="textarea" cols="65" rows="10" readonly="readonly">8</textarea></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">时间限制 Time Limitation</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">3s</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">注释 Hint</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">【样例说明】 <br>
+将1 号用户的付费方式由B 改为A，NS 中学支付给网络公司的费用达到最小。 <br>
+【评分方法】 <br>
+本题没有部分分，你的程序的输出只有和我们的答案完全一致才能获得满分，否则不得分。 <br>
+【数据规模和约定】 <br>
+40%的数据中N&lt;=4； <br>
+80%的数据中N&lt;=7； <br>
+100%的数据中N&lt;=10，0&lt;=Fi,j&lt;=500，0&lt;=Ci&lt;=500 000。 </td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="512" height="20" colspan="2" align="left" valign="top" class="style2">来源 Source</td>
+          <td rowspan="2" background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="10" align="left" valign="top">&nbsp;
+		  </td>
+          <td width="502" align="left" valign="top">noi2006</td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td colspan="2" background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table>
+	 	 </td>
+    <td width="200" valign="top"><table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+        <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+      </tr>
+      <tr>
+        <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+        <td width="172" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#DFDFDF">
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" class="style1">Flag</div></td>
+            <td align="left" bgcolor="#F5F5F5">　　</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>题号</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_show.aspid1712.htm">P1712</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong><a href="#" title="请用鼠标拖动选择单元格中的文字即可显示类别">类型<span style="font-size: 9px">(?)</span></a></strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<span style="color: #F5F5F5">其它</span></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　<a href="problem_listok.aspid1712.htm">0人</a></td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>提交</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0次</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>通过率</strong></div></td>
+            <td align="left" bgcolor="#F5F5F5">　　0%</td>
+          </tr>
+          <tr bgcolor="#CCCCCC">
+            <td width="60" height="25" bgcolor="#CCCCCC"><div align="center" style="font-weight: bold"><strong>难度</strong></div></td>
+            <td width="109" align="left" bgcolor="#F5F5F5">　　1</td>
+            </tr>
+        </table></td>
+        <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+      </tr>
+      <tr>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+        <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+        <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+      </tr>
+    </table>
+      <table height="0" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r1_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r1_c3.gif"></td>
+        </tr>
+        <tr>
+          <td background="skin/nature%20vert/frame_r2_c1.gif"></td>
+          <td width="172" valign="top"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+            <tr align="center">
+              <td><span style="font-weight: bold"><a href="index.asp.htm">提交</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_discuss.aspid1712.htm">讨论</a></span></td>
+              <td><span style="font-weight: bold"><a href="index.asp.htm">题解</a></span></td>
+              <td><span style="font-weight: bold"><a href="problem_data_list.aspid1712.htm">数据</a></span></td>
+            </tr>
+          </table></td>
+          <td background="skin/nature%20vert/frame_r2_c3.gif"></td>
+        </tr>
+        <tr>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c1.gif"></td>
+          <td background="skin/nature%20vert/frame_r3_c2.gif"></td>
+          <td width="14" height="14" background="skin/nature%20vert/frame_r3_c3.gif"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+	  </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="5" bgcolor="#1B5987"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5" bgcolor="#003366"></td>
+    </tr>
+      </table>
+	  
+  <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" height="50">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td align="left" valign="top">
+			  　Copyright &copy; 2011-2011. Vijos 高效信息学在线评测系统</a>
+			  <script type="text/javascript" src="../js.tongji.linezing.com/1097391/tongji.js"></script><noscript><a href="../www.linezing.com/default.htm"></a></noscript>　<a href="help.asp.htm"><strong>帮助</strong></a><br />
+		    　<span style="font-size: 9px">Tyvj Information ---- <a href="rank.asp.htm">Total Users : 227</a> | <a href="online.asp.htm">Online Users / Processes : 71 / 402</a> | Processed Time : 16 ms | Server Time : 2014-1-21 18:02:09</span>		</td>
+			<td width="60" valign="top"></td>
+		  </tr>
+		</table>
+	  </td>
+    </tr>
+  </table>
+
+<style>
+#UserShowInfo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:68px;
+	z-index:100;
+	cursor: hand;
+	filter: Alpha(Opacity=10, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=70);
+}
+</style>
+
+<div id="UserShowInfo">
+    <div align="center">
+    <table width="440" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="2">
+		</td>
+	  </tr>
+      <tr>
+        <td>
+	  
+		<table  width="0" border="0" align="left" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td><table width="100%" border="0" align="left" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td width="48" rowspan="2"><img src="face/face1.gif" width="48" height="48"></td>
+                <td><div align="center"><a href="user_show.aspid1.htm" title="U1 - 通过0题 - Guest - 无 - P1711"><font color="#666666"><strong>Tyvj Guest</strong></font></a></div></td>
+              </tr>
+              <tr>
+                <td bordercolor="" dir=""><div align="center"><img src="face/stars0.gif" width="64" height="12"><img src="img/sex_0.gif" width="10" height="12" /></div></td>
+              </tr>
+              
+            </table></td>
+          </tr>
+        </table>
+</td>
+      </tr>
+    </table>
+	</div>
+</div>
+
+</body>
+</html>
